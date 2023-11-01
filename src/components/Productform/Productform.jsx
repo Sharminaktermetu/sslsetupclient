@@ -31,14 +31,14 @@ const Productform = () => {
             <div className="lg:w-2/3">
                 <label className="block mb-2">Product Image</label>
                 <img src="https://puresourceindia.in/wp-content/uploads/2021/02/81KKrzZHG6L._SL1500_.jpg" alt="" />
-                <p className='text-2xl font-semibold text-yellow-50'>Price 100tk</p>
+                <p className='text-2xl font-bold text-yellow-50'>Price 100tk</p>
             </div>
 {/* form starts here */}
-            <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-2 gap-4">
+            <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-2 gap-4 text-white">
 
                 <div className="col-span-2">
-                    <label className="block mb-2">Product Name</label>
-                    <input defaultValue="test" {...register('productName')} className="p-3 w-full border rounded" />
+                    <label className="block mb-2 ">Product Name</label>
+                    <input defaultValue="test" {...register('productName')} className="p-3 w-full border rounded text-black" />
                 </div>
 
                 <div>
