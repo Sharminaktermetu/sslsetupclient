@@ -12,7 +12,7 @@ const App = createBrowserRouter([
     element:<Productform></Productform>
   },
   {
-    path: "/payment-success",
+    path: "/ssl-payment-success",
     element:<SuccessPay></SuccessPay>
   },
 ]);
