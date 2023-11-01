@@ -12,7 +12,7 @@ const Productform = () => {
 
     const onSubmit = (data) => {
         data.productId = id;
-        console.log(data);
+    
         fetch('https://ssl-payment.onrender.com/ssl-request', {
             method: "POST",
             headers: { "content-type": "application/json" },
