@@ -13,11 +13,11 @@ const App = createBrowserRouter([
     element:<Productform></Productform>
   },
   {
-    path: "/ssl-payment-success",
+    path: "/payment-success",
     element:<SuccessPay></SuccessPay>
   },
   {
-    path: "/ssl-payment-fail",
+    path: "/payment-fail",
     element:<FailPay></FailPay>
   },
 ]);
